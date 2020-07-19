@@ -1,0 +1,284 @@
+a {	outline: none;
+	text-decoration: underline;
+}
+a:hover
+{	text-decoration: none;
+	}
+h1
+{	font-size:26px;
+	line-height:28px;
+	margin-bottom: 20px;
+	}
+h2
+{	font-size:22px;
+	line-height:24px;
+	margin: 15px 0 10px;
+	color: #000;
+	}
+h3
+{	font-size: 18px;
+	line-height: 20px;
+	}
+p
+{	margin: 0 0 18px;
+	float: left;
+	width: 100%;
+	}
+img
+{	border: none;
+	}
+ul, ol {
+    clear: both;
+}
+
+/* Хлебные крошки*/
+.B_crumbBox
+{	float:left;
+	margin-bottom: 20px;
+	width:100%;
+	}
+.B_currentCrumb
+{	color:#333333;
+	}
+
+
+/*Контентная часть*/
+.content_inner
+{	margin-bottom:20px;
+	width:100%;
+	float:left;
+	}
+.content_inner ul, .content_inner ol
+{
+	margin-left: 25px;
+	}
+.content_inner p img
+{
+	margin:  0 10px;
+}
+
+/*СТАТЬИ НА СТРАНИЦЕ*/
+ul.articleul
+{	float:left;
+	margin-left: 0;
+	margin-bottom: 25px;
+	width: 100%;
+	}
+ul.articleul li
+{	list-style:none;
+	float:left;
+	width:100%;
+	}
+ul.articleul li span
+{	width:100%;
+	display:block;
+	color:#333333;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	font-style: italic;
+	}
+
+ul.articleul li img
+{	float:left;
+	margin-right:7px;
+	}
+ul.articleul li a
+{	text-decoration: none;
+	}
+ul.articleul li h2
+{	font-size: 20px;
+	}
+/*ССЫЛКИ НА СТРАНИЦЕ*/
+ul.articlelinkl {	float:left;
+	margin-bottom:20px;
+	display:block;
+	width: 100%;
+	margin-left: 0;
+	}
+ul.articlelinkl li
+{	list-style:none;
+	line-height:25px;
+	background:url(../img/marker.jpg) no-repeat;
+	padding-left: 22px;
+	position: relative;
+	}
+ul.articlelinkl li a
+{	text-decoration:none;
+	color: #000;
+	}
+ul.articlelinkl li a:hover
+{	text-decoration:underline
+	}
+
+a.rightlink {	float: left;
+	margin-bottom: 2px;
+	padding-right: 5px;
+	width: 100%;
+	text-align: right;
+	}
+
+/*Новостной блок*/
+.block_news
+{	float:left;
+	width: 100%;
+	}
+.block_news h3
+{	font-size: 17px;
+	}
+.block_news .date
+{	display: block;
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 10px;
+	}
+.block_news .news_item
+{	float:left;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 12px;
+	}
+.block_news .news_item p
+{	clear: none
+	}
+.news_item img {	float:left;
+	margin: 0 10px 10px 0;
+ 	border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;}
+
+/*Стиль галереи*/
+.gal {
+	margin:15px 0;
+	font-size: 0;
+	float:left;
+	width: 100%;
+}
+.gal .image {
+	display:inline-block;
+	vertical-align:top;
+	position: relative;
+	width:33%;
+}
+.gal .image a {
+	display: block;
+	padding: 4px;
+	margin: 6px;
+	border: 1px solid #ccc;
+	background: #fff;
+	position: relative;
+}
+.gal .image a:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+	left: 0;
+	height: 90px;
+	z-index: -1;
+	-moz-box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.82);
+	-webkit-box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.82);
+	box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.82);
+	border-radius: 41%;
+}
+.gal .image img {
+	width: 100%;
+	border: none !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+}
+.gal.col1 .image {width:100%;}.gal.col2 .image {width:50%;}.gal.col3 .image {width:33%;}.gal.col4 .image {width:25%;}.gal.col5 .image {width:20%;}.gal.col6 .image {width:16.6%;}
+
+/*КОММЕНТАРИИ*/
+.jot-list,.jot-form,.jot-comment,.jot-row
+{	float:left;
+	width:100%;
+	}
+.jot-row .jot-comment-entry
+{	margin-top: 10px;
+	}
+
+/* Sitemap Стиль для карты сайта.*/
+.sitemap ul
+{
+	list-style-type:none;
+	}
+
+.sitemap ul ul,.sitemap ul ul, .sitemap ul ul ul, .sitemap ul ul ul ul
+{
+	padding:10px;
+	list-style-type:none;
+	margin:10px 20px;
+	border-left: 1px solid #333;
+	}
+.sitemap ul li
+{	padding:2px;
+	}
+.sitemap a
+{	color:#333;
+	}
+.sitemap a:hover
+{	color:#428bca;
+	}
+
+/*Для формы обратной связи. Не изменять!!! */
+#respond
+{	float:left;
+	margin-top: 20px;
+	width: 100%;
+	}
+.errors
+{	margin-bottom: 15px;
+	color:#7f7f7f;
+	font-style: italic;
+	}
+.errors strong
+{	color: red;
+	width:100%;
+	}
+
+.thank strong
+{	color: green;
+	width:100%;
+	font-weight: bold;
+	margin-bottom: 15px;
+	}
+.thank ul li
+{	list-style:none;
+	}
+#respond table tr td
+{
+	padding: 8px;	}
+#respond table tr td input[type=text]
+{
+	padding: 5px 7px;	}
+/*Стиль для результатов поиска*/
+
+.ajaxSearch_paging
+{	margin-bottom:20px;
+	float:left;
+	width:100%;
+	}
+.ajaxSearch_highlight
+{
+	background-color: rgba(15,193,200,0.8);	}
+.ajaxSearch_resultLink
+{
+	text-decoration: none;	}
+
+#content  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    display: block;
+    line-height: 20px;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.articleimg{background: url(../img/imgbg.jpg) no-repeat center top;background-size: contain;padding: 3px 3px 7px 3px;float:left;margin-right:7px;margin-bottom: 5px;}
+a.ditto_page{margin:0px 4px;text-decoration:none;border-bottom:1px #414141 solid;font-size:16px;color:#0e5e93;}
+a.ditto_page:hover{border:none}
+.ditto_currentpage{font-size:16px;}
+.slash{font-size:16px;line-height:26px;}
